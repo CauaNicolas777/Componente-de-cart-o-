@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Outfit:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    min-height: 100vh;
+    align-items: center;
+    font-size: 15px;
+    display: flex;
+    background-color: hsl(0, 0%, 95%);
+
+}
+.container{
+    display: flex;
+    margin: 0 auto;
+    width: 790px;
+    
+}
+
+.card1{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 8px 0 0 8px;
+    padding: 26px;
+}
+
+.card2{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    background-color: hsl(184, 100%, 22%);
+    padding: 20px;
+}
+
+.card3{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    background-color: hsl(179, 100%, 13%); 
+    border-radius:0 8px 8px 0px;
+    padding: 20px;
+}
+
+img{
+    width: 60px;
+    padding-top: 10%;
+    padding-left: 7%;
+}
+
+
+.titulo{
+    font-family: "Big Shoulders Display", sans-serif;
+    margin: 20px;
+    color: white;
+    font-size: 30px;
+    margin-top: 15%;
+    
+}
+
+.paragrafo{
+    font-family: "Lexend Deca", sans-serif;
+    padding: 20px ;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 13px;
+    font-weight: 250;
+
+}
+
+.card1 button{
+    color: hsl(31, 77%, 52%);
+}
+
+.card2 button{
+    color: hsl(184, 100%, 22%);
+}
+
+.card3 button{
+    color: hsl(179, 100%, 13%);
+}
+
+button{
+    margin: 35% 0 10%;
+    border-radius: 25px;
+    border: 0;
+    background-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+    width: 130px;
+    padding: 15px;
+    font-size: 80%;
+    font-weight: 650;
+}
